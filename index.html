@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rezerwacje terminów</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="callendar">
+            <div class="callendar__logo">
+                <img src="assets/logo.png" alt="logo salonu fryzjerskiego - czarne nożyczki " class="logo__img" srcset="">
+                <h1>Salon fryzjerski</h1></div>
+            <div class="callendar__head">
+                <div class="callendar__head--buttonPrev"><button class="buttonPrev"><</button></div>
+                <div class="callendar__head--date"></div>
+                <div class="callendar__head--buttonNext"><button class="buttonNext">></button></div>
+            </div>
+            <div class="callendar__table">
+                <table class="table">
+                    
+                </table>
+            </div>
+            <div class="timePicker">
+                <div class="timePicker__header">
+                    <h2>Uzupełnij dane oraz wybierz godzinę</h2></div>
+                    <button class="close">X</button>
+                <div class="timePicker__clientData">
+                    <label for="name">Podaj imię</label>
+                    <input type="text" id="name" />
+
+                    <label for="surname">Podaj nazwisko</label>
+                    <input type="text" id="surname" />
+                </div>
+                <div class="timePicker__timer">
+                    <input type="time" id="appt" name="appt"
+                    min="09:00" max="18:00" required>
+                </div>
+                <div class="timePicker__choose">
+                    <button class="timePicker__button">Umów</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+    <script src="js/myFunctions.js"></script>
+</body>
+</html>

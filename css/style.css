@@ -1,0 +1,170 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.callendar{
+    width: 80%;
+    /* background-color: red; */
+    border: 1px solid black;
+    /* background-color: rgba(95, 158, 160, 0.192); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.callendar__logo{
+    text-align: center;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    /* /* background-color: green; */
+}
+
+.logo__img{
+    /* float: left; */
+    width: 4rem;
+    height: 4rem;
+    margin-right: 3rem;
+}
+
+.callendar__head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(153, 200, 228, 0.521);
+}
+
+.close{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.callendar__head--date{
+    text-align: center;
+    /* width: 25%; */
+}
+
+.callendar__head--buttonPrev{
+    margin-left: 3rem;
+    font-size: 2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.callendar__head--buttonNext{
+    margin-right: 3rem;
+    font-size: 2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonPrev{
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    border-radius: 15%;
+    /* border-radius: 5px; */
+    background-color: rgba(77, 178, 236, 0.425);
+    cursor: pointer;
+}
+.buttonNext{
+    border: none;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: rgba(77, 178, 236, 0.425);
+    cursor: pointer;
+}
+
+.callendar__table{
+    
+    width: 90%;
+    margin-top: 1rem;
+    /* background-color: rgba(95, 158, 160, 0.192); */
+    /* background-color: honeydew; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.table{
+    border: 1px solid black;
+}
+
+.table th{
+    border: 1px solid black;
+    padding: 2rem;
+    background-color: rgba(76, 161, 230, 0.404);
+}
+
+.table td{
+    text-align: center;
+    border: 1px solid black;
+    padding: 2rem 0;
+}
+
+.currentDay{
+    background-color: rgba(38, 97, 224, 0.418);
+}
+
+#appt{
+    font-size: 2rem;
+    background-color: rgba(143, 125, 134, 0.459);
+    padding: 2rem;
+}
+
+.timePicker{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgb(154, 193, 211);
+    display: none;
+}
+
+.timePicker__clientData{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#name, #surname{
+    text-align: center;
+}
+
+.timePicker__header{
+    padding: 0 1rem;
+}
+
+.timePicker__button{
+    padding: .5rem 1rem;
+    background-color: rgba(72, 72, 241, 0.726);
+}
+
+.timePicker__button:hover{
+    background-color: rgba(72, 72, 241, 0.5);
+}
+
+
+.showTimePicker{
+    display: block;
+}
+
+.hideTimePicker{
+    display: none;
+}
+
